@@ -1,0 +1,43 @@
+body {
+  text-align: center;
+}
+
+.box {
+  width:20%;
+  height: 100px;
+}
+
+.tomato {
+  background-color: tomato;
+}
+
+.lightgreen {
+  background-color: lightgreen;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.container {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(153, 251, 216);
+}
+
+@media(max-width: 600px) {
+  .lightgreen,
+  .yellow {
+    display: none;
+  }
+}
+
+@media(min-width: 1000px) {
+  .box {
+    width: 100%;
+  }
+}
